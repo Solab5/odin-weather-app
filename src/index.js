@@ -1,4 +1,4 @@
 import "./style.css";
-import { getWeatherData, displayWeatherData } from "./getWeather.js";
+import render from "./modules/dom.js";
 
-displayWeatherData()
+render()
